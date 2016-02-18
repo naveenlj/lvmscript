@@ -21,7 +21,7 @@ read choice
 # bash nested if/else
 if [ $choice -eq 1 ] ; then
 
-        /home/pilankar/LVM_scripts/lvm_display.sh
+        lvm_display.sh
 
 else
 
