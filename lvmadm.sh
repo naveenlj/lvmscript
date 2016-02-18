@@ -21,7 +21,7 @@ read choice
 # bash nested if/else
 if [ $choice -eq 1 ] ; then
 
-        lvm_display.sh
+        bash lvm_display.sh
 
 else
 
@@ -30,22 +30,22 @@ else
         else
 
                 if [ $choice -eq 3 ] ; then
-                        /home/pilankar/LVM_scripts/pvc.sh
+                        bash pvc.sh
                 else
                 if [ $choice -eq 4 ] ; then
-                        /home/pilankar/LVM_scripts/vgc.sh
+                        bash vgc.sh
                 else
                 if [ $choice -eq 5 ] ; then
-                        /home/pilankar/LVM_scripts/lvc.sh
+                        bash lvc.sh
                 else
                 if [ $choice -eq 6 ] ; then
-                        /home/pilankar/LVM_scripts/fsc.sh
+                        bash fsc.sh
                 else
                 if [ $choice -eq 7 ] ; then
-                        /home/pilankar/LVM_scripts/lv_fs_resize.sh
+                        bash lv_fs_resize.sh
                 else
                 if [ $choice -eq 8 ] ; then
-                        /home/pilankar/LVM_scripts/mount.sh
+                        bash mount.sh
                 else
                         echo "Please make a choice between 1-8 !"
                         echo "1. Display existing LV's PV's VG's info"
