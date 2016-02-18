@@ -15,4 +15,4 @@ Code for lvm_display.sh subscript:
 pvs ; echo "=======================" ; lvs ; echo "============================="  ; vgs ; echo "============================="
 
 pvdisplay ; echo "=======================" ; lvdisplay ; echo "============================="  ; vgdisplay ; echo "============================="
-Code for vgc.sh subscript:
+
